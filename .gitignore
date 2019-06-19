@@ -1,0 +1,7 @@
+node_modules
+/build
+/*.log
+*.lock
+/src/config/index.js
+
+package-lock.json

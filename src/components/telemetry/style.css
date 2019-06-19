@@ -1,0 +1,63 @@
+.telemetry {
+	background-color: #333;
+	position: absolute;
+	z-index:30;
+	bottom: 30px;
+	left:30px;
+	border-radius:8px;
+
+	width: 235px;
+	-webkit-box-shadow: 10px 10px 45px 0px rgba(0,0,0,0.67);
+	-moz-box-shadow: 10px 10px 45px 0px rgba(0,0,0,0.67);
+	box-shadow: 10px 10px 45px 0px rgba(0,0,0,0.67);
+
+}
+
+.telemetry h2 {
+	color:#fff;
+	padding:0px;
+	margin:10px 40px 0px;
+} 
+.telemetry h3 {
+	color:#FFF;
+	padding:0px;
+	margin:10px 40px;
+	text-align:center;
+}
+.telemetry ul {
+	list-style:none;
+	padding: 20px 40px;
+	margin: 0px;
+	color: #fff;
+}
+.telemetry ul li {
+	font-weight: bolder;
+}
+.telemetry .label {
+	font-weight: normal;
+	padding-right:5px
+}
+.batteryVoltage {
+	font-weight:normal;
+	padding-left:3px;
+}
+.telemetry .armed {
+    background-color: #e89f40;
+    position: absolute;
+    top: 12px;
+    font-size: 13px;
+    margin: 0px 0 0 15px;
+    padding: 5px;
+    border-radius: 4px;
+	font-weight: normal;
+}
+.telemetry .disarmed {
+    background-color: #2abcd6;
+    position: absolute;
+    top: 12px;
+    font-size: 13px;
+    margin: 0px 0 0 15px;
+    padding: 5px;
+    border-radius: 4px;
+	font-weight: normal;
+}

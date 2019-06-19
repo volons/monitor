@@ -1,0 +1,25 @@
+.hive {
+	padding: 56px 20px;
+	min-height: 100%;
+	width: 100%;
+}
+
+.mapContainer {
+	background-color: #CECECE;
+	position:absolute;
+	top:-50px;
+	bottom:-50px;
+	left:-50px;
+	right:-50px;
+}
+
+.hiveStatus {
+    background-color: #CECECE;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: 111111;
+    font-size: 16px;
+	padding:5px 15px;
+	border-radius: 4px 0px 0px;
+}
