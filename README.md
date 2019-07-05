@@ -25,7 +25,7 @@ npm install
 npm run dev
 
 # build for production with minification
-npm run build
+preact build --no-prerender
 
 # test the production build locally
 npm run serve
